@@ -1,0 +1,17 @@
+wechatauto-bridge
+Copyright (c) 2026 wechatauto-bridge contributors
+Licensed under the MIT License (see LICENSE).
+
+This project is a thin bridge/client for a *separately installed* third-party
+service. It does not contain or redistribute that service's source code.
+
+Third-party notice
+------------------
+wechatauto-replica
+  Project: https://github.com/fanyuantaier/wechatauto-replica
+  Package: wechatauto-replica (PyPI)
+  License: Apache License 2.0
+  Copyright: wechatauto-replica authors
+
+You install and run that project yourself; this repository only calls its
+local HTTP API at http://127.0.0.1:8010 and documents the endpoints.

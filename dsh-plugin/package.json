@@ -1,0 +1,10 @@
+{
+  "name": "wechatauto-dsh-bridge",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH plugin that bridges to a local wechatauto service (send text / file / image)",
+  "main": "lib/index.js",
+  "keywords": ["dsh", "dsh-plugin", "wechatauto", "automation", "bridge"],
+  "license": "MIT",
+  "private": true
+}
