@@ -1,0 +1,38 @@
+{
+  "name": "wechatauto-dsh-bridge",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH plugin + HTTP client bridging to a local wechatauto send service (text / file / image)",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "docs",
+    "client",
+    "README.md",
+    "NOTICE",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "wechatauto",
+    "wechat",
+    "automation",
+    "bridge",
+    "mcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dingye233/wechatauto-bridge.git"
+  },
+  "homepage": "https://github.com/Dingye233/wechatauto-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/Dingye233/wechatauto-bridge/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Dingye233"
+}

@@ -16,7 +16,7 @@
 ## 里面有什么
 
 ```
-dsh-plugin/     DSH 原生插件（暴露 5 个工具：状态、发文本、发文件、发图片、群列表）
+lib/            DSH 原生插件实现（暴露 5 个工具：状态、发文本、发文件、发图片、群列表）
 client/         wechatauto_client.py，纯标准库的 Python 客户端
 docs/API.md     本地服务 HTTP 接口速查（send_text / send_file / send_sticker / status ...）
 scripts/        启动服务的示例脚本
@@ -38,7 +38,7 @@ curl http://127.0.0.1:8010/v1/status
 
 ## 二、DSH 里用（推荐）
 
-把 `dsh-plugin/` 整个目录拷到你的 DSH `studio` 目录，例如
+把整个仓库（或 `npm pack` 产出的包）拷到你的 DSH `studio` 目录，例如
 `<DSH_RUNTIME>/data/dsh/studio/wechatauto-bridge`，然后安装：
 
 ```bash
